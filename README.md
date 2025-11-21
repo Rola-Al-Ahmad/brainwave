@@ -8,7 +8,7 @@ This project showcases a complete landing page design for an AI chatbot applicat
 
 ## 🔗 Live Demo
 
-👉 [View Deployed App](https://your-username.github.io/brainwave/)
+👉 [View Deployed App](https://Rola-Al-Ahmad.github.io/brainwave/)
 
 ---
 
