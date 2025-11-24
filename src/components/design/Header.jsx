@@ -38,7 +38,9 @@ export const HamburgerMenu = () => {
           src={background}
           width={688}
           height={953}
-          alt="Background"
+          alt=""
+          loading="lazy"
+          aria-hidden="true"
         />
       </div>
 

@@ -1,15 +1,14 @@
-import brackets from "../assets/svg/Brackets"
+import { memo } from "react";
+import brackets from "../assets/svg/Brackets";
 
 const Tagline = ({ className, children }) => {
-    return (
-        <div className={`tagline flex items-center ${className || ""}`}>
-            {brackets("left")}
-            <div className="max-3 text-n-3">
-                &nbsp;&nbsp;{children}&nbsp;&nbsp;
-            </div>
-            {brackets("right")}
-        </div>
-    )
-}
+  return (
+    <div className={`tagline flex items-center ${className || ""}`}>
+      <span aria-hidden="true">{brackets("left")}</span>
+      <div className="max-3 text-n-3">&nbsp;&nbsp;{children}&nbsp;&nbsp;</div>
+      <span aria-hidden="true">{brackets("right")}</span>
+    </div>
+  );
+};
 
-export default Tagline
+export default memo(Tagline);

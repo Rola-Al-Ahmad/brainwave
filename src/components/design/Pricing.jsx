@@ -8,7 +8,9 @@ export const LeftLine = () => {
         src={lines}
         width={1480}
         height={177}
-        alt="Lines"
+        alt=""
+        loading="lazy"
+        aria-hidden="true"
       />
     </div>
   );
@@ -22,7 +24,9 @@ export const RightLine = () => {
         src={lines}
         width={1480}
         height={177}
-        alt="Lines"
+        alt=""
+        loading="lazy"
+        aria-hidden="true"
       />
     </div>
   );
