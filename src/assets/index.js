@@ -3,7 +3,7 @@ import check from "./check.webp";
 import brainwaveSymbol from "./brainwave-symbol.webp";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.webp";
 import play from "./play.webp";
-import gradient from "./gradient.webp";
+import gradient from "./gradient.png";
 import smallSphere from "./4-small.webp";
 import grid from "./grid.webp";
 import check2 from "./check-02.webp";
